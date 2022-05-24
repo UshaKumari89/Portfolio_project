@@ -1,79 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <script src="https://kit.fontawesome.com/d3e1f8ffba.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <!-------------------------------
+    <script
+      src="https://kit.fontawesome.com/d3e1f8ffba.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----------------------------
     Navigation Section start now
--------------------------------->
-    <section id ="nav_bar">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container">
-              <span><i class="fa-solid fa-chess-queen"></i><a class="navbar-brand" href="#">Usha's Portfolio</a></span>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    
-                    <a class="nav-link" href="#top">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#services">SERVICES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about_us">ABOUT ME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#footer">CONTACT</a>
-                  </li>
-              </ul>
-            </div>
-            </div>
-          </nav>
-      </section>
-    
-       <!-------------------------------
-    Header Section end
--------------------------------->
-  <!-------------------------------
-    Header Section start now
+    ----------------------->
+
+    <nav>
+      <span>
+        <i class="fa-solid fa-crown"></i>
+        <a href="#" class="logo">Usha's Portfolio</a>
+      </span>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <button><small>MENU</small></button>
+    </nav>
+    <!----------------------------
+    Navigation Section ends now
+    ----------------------->
+
+    <!-------------------------------
+    Hire me Section start now
 -------------------------------->
 
-<div class="header-section">
-    <div class="header-text-section">
+    <div class="header-section">
+      <div class="header-text-section">
+        <div class="heading">
+          <h1>Welcome To <br /><span>My Portfolio</span></h1>
+        </div>
+        <p>
+          Thanks for visiting my Website.<br />
+          I am frontend developer student. I'am in learning process and have
+          good understanding of HTML5, CSS3 and basics of JavaScript <br />ES6,
+          Bootstrap, git and github.
+        </p>
+        <br />
+        <a href="https://www.linkedin.com/feed/" target="_blank" class="btn"
+          >HIRE ME</a
+        >
+        <p class="scroll-para">Scroll down to explore more about us</p>
+      </div>
 
-            <div class="heading">
-                <h1>Welcome To <br><span>My Portfolio Website</span></h1>
-            </div>
-            <p> I am frontend developer student. I'am in learning process and have good understanding of HTML5, CSS3, Javascript,
-                 <br>ES6, Bootstrap, git and github.<br>Thanks for visiting my Website.  
+      <div class="header-right">
+        <div class="circle-outside">
+          <div class="circle-inside"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------
+    Hire me Section end now
+-------------------------------->
+
+    <!-------------------------------
+    Missin Section start now
+-------------------------------->
+
+    <div class="my-mission">
+      <h2>My <span>Mission</span></h2>
+      <div class="my-mission-item">
+        <div class="mission-item1">
+          <div class="mission-img"><img src="images/pic_1.png" /></div>
+          <div class="mission-item-body">
+            <h3>Mission</h3>
+            <p>
+              My mission this year is to become a web developer. I will fulfill
+              my mission, Insha Allah, no matter how many obstacles come in
+              front of me.
             </p>
-            <br>
-            <a href="https://www.linkedin.com/in/uavaswani/" target="_blank" class="btn">HIRE ME</a>
-            <p class="scroll-para">Scroll down to explore more about us</p>
+          </div>
+        </div>
 
-    </div>
-    
-    <div class="header-image-section">
-            <img src="images/dummy-woman.png" alt="logo">
-    </div>
-</div>
+        <div class="mission-item1" id="mission-item2">
+          <div class="mission-img"><img src="images/pic_2.jpg" /></div>
 
-<!-------------------------------
-Hire me Section end now
+          <div class="mission-item-body">
+            <h3>Vission</h3>
+            <p>
+              My vision is to be the best programmer in the world and I will,
+              Insha Allah. I am following the path of my vision. I will work
+              with my best
+            </p>
+          </div>
+        </div>
+
+        <div class="mission-item1" id="mission-item3">
+          <div class="mission-img">
+            <img src="images/pic_3.jpg" />
+          </div>
+          <div class="mission-item-body">
+            <h3>Goals</h3>
+            <p>
+              My goal is to lead me to my goal of success. I will work hard for
+              my goal until I can reach my goal. My willpower drives me towards
+              the goal
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------
+Missin Section start now
 -------------------------------->
 
+    <!-------------------------------
+    Develop Section start now
+-------------------------------->
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</body>
+    <div class="develop-section">
+      <div class="develop-img">
+        <img src="images/develop.jpg" />
+      </div>
+      <div class="develop-text">
+        <h2>Develop <br /><span>Without Limit</span></h2>
+        <p>
+          I believe web development is always fun. We should learn web
+          development for a bright career . I am learning web development. I can
+          do HTML, CSS, JS and now I am doing a course. I must say that web
+          development requires more patience and consistency.
+        </p>
+        <a href="https://github.com/UshaKumari89" target="_blank" class="btn"
+          >Click Me</a
+        >
+      </div>
+    </div>
+
+    <!-------------------------------
+Develop Section end now
+-------------------------------->
+
+    <!-------------------------------
+    personal section start now
+-------------------------------->
+
+    <div class="personal-section">
+      <div class="personal-text">
+        <h2>
+          About Me<br />
+          <span>Personal Details</span>
+        </h2>
+        <p>
+          I am flexible, reliable, and have excellent time-keeping skills. I am
+          an enthusiastic, self-motivated, reliable, responsible, and
+          hardworking person. I am a mature team worker and can adapt to all
+          challenging situations.
+        </p>
+        <a
+          href="https://www.facebook.com/usha.malani.7"
+          class="btn"
+          target="_blank"
+          >Contact Me</a
+        >
+      </div>
+
+      <div class="personal-img">
+        <img src="images/team_work.jpg" class="personal-images" />
+        <div class="shapes">
+          <img src="images/circle.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------
+personal section end now
+-------------------------------->
+    <!-----------------------------------
+    our service section start now
+------------------------------------->
+
+    <div class="service-section">
+      <h2>Our <span>Services</span></h2>
+
+      <!---------Service Item Section first start---------->
+      <div class="service">
+        <div class="service-item">
+          <i class="fa-solid fa-code"></i>
+          <div class="service-body">
+            <h3>Web Design</h3>
+            <p>
+              I will create a responsive Personal Portfolio and alluring sites
+              at a reasonable cost
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class="fa-brands fa-phoenix-squadron"></i>
+          <div class="service-body">
+            <h3>Seo Marketing</h3>
+            <p>
+              I can help you to write SEO friendly 1000 words up to 2000 words
+              any type of content
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class="fa-solid fa-rocket"></i>
+          <div class="service-body">
+            <h3>Web Hosting</h3>
+            <p>
+              Choosing the fastest web hosting provider in reasonable budget
+              remains a mystery.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+        <!-- </div> -->
+        <!---------Service Item Section first end---------->
+
+        <!---------Service Item Section secend start---------->
+        <!-- <div class="service"> -->
+        <div class="service-item">
+          <i class="fa-solid fa-tachograph-digital"></i>
+          <div class="service-body">
+            <h3>Digital Marketing</h3>
+            <p>
+              Your branding of the social media content is crucial for
+              increasing brand awareness
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class="fa-solid fa-arrows-down-to-people"></i>
+          <div class="service-body">
+            <h3>Ad Campaign</h3>
+            <p>
+              Are You Running Facebook Ads For Your Business?Looking for someone
+              to help you
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class="fa-solid fa-people-group"></i>
+          <div class="service-body">
+            <h3>Content Marketing</h3>
+            <p>
+              I want to work with you to find out exactly what you're looking
+              for, and surpass your expectations.
+            </p>
+            <a href="">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!---------Service Item Section secend end---------->
+    </div>
+
+    <!-----------------------------------
+our service section end now
+------------------------------------->
+
+    <!-----------------------------------
+Footer section starts now
+------------------------------------->
+    <footer>
+      <div class="footer-content">
+        <h3>Learning Webdevelopment</h3>
+        <p>
+          THANKS FOR VISITING MY WEBSITE. I AM FRONTEND DEVELOPER STUDENT. I'AM
+          IN LEARNING PROCESS AND HAVE GOOD UNDERSTANDING OF HTML5, CSS3,
+          JAVASCRIPT, ES6, BOOTSTRAP, GIT AND GITHUB.
+        </p>
+        <ul class="socials">
+          <li>
+            <a href="https://www.facebook.com"
+              ><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#https://uavaswani"><i class="fa fa-google-plus"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"
+              ><i class="fa fa-linkedin-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com"><i class="fa-brands fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-menu">
+          <ul class="f-menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <p>copyright &copy; <a href="#">Usha Kumari</a></p>
+      </div>
+    </footer>
+    <!-----------------------------------
+Footer section ends now
+------------------------------------->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
 </html>
